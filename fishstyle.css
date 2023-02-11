@@ -1,0 +1,16 @@
+.card{
+    box-shadow: 15px 20px 20px black,
+                inset 4px 4px 10px white;
+    border: none !important;
+    overflow: hidden;
+    height: 300px;
+    width: 250px;  
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px black,
+                inset -4px -4px 10px white;
+    transition: .2s;            
+}
